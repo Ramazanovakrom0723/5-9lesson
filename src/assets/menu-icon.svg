@@ -1,0 +1,20 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 9">
+<g id="Rectangle 7" filter="url(#filter0_b_2_42)">
+<rect width="40" height="40" rx="20" fill="#F4FBFF" fill-opacity="0.1"/>
+</g>
+<g id="Group 8">
+<path id="Vector" d="M27 26H13C12.4477 26 12 25.5523 12 25C12 24.4477 12.4477 24 13 24H27C27.5523 24 28 24.4477 28 25C28 25.5523 27.5523 26 27 26Z" fill="white"/>
+<path id="Vector_2" d="M27 21H13C12.4477 21 12 20.5523 12 20C12 19.4477 12.4477 19 13 19H27C27.5523 19 28 19.4477 28 20C28 20.5523 27.5523 21 27 21Z" fill="white"/>
+<path id="Vector_3" d="M27 16H13C12.4477 16 12 15.5523 12 15C12 14.4477 12.4477 14 13 14H27C27.5523 14 28 14.4477 28 15C28 15.5523 27.5523 16 27 16Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_2_42" x="-500" y="-500" width="1040" height="1040" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="250"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2_42"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2_42" result="shape"/>
+</filter>
+</defs>
+</svg>

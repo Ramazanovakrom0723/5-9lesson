@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: black;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 40px;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-item {
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  position: relative;
+}
+
+ul {
+  font-family: "Roboto";
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: #00a8e8;
+}
+
+.nav-item:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #00a8e8;
+  transition: width .3s;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.nav-item:hover:after,
+.nav-item:focus:after {
+  width: 100%;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 1px;
+  border-radius: 20px 0 0 20px;
+}
+
+.search-button {
+
+  background: none;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.search-icon {
+  height: 20px;
+}
+
+.icons {
+  height: 25px;
+  cursor: pointer;
+}
+
+.icon {
+  height: 38px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  filter: brightness(0.8);
+}
